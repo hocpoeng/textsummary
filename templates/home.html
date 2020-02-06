@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}NLTK{% endblock %}
+
+{% block body %}
+<div class="row">
+
+  <div class="col-md-12">
+    <div class="block"><h3>Summary:</h3></div>
+    <div class="text-left">
+      {% for s in summary %}
+        <p>{{ s }}</p>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+{% endblock %}
