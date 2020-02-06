@@ -19,7 +19,7 @@ Please use the python `virtualenv` tool to build locally:
 $ pip3 install virtualenv
 $ python3 -m venv venv
 $ source venv/bin/activate
-$ cd rulesengine
+$ cd ML
 $ pip3 install -r requirements.txt
 $ python3 manage.py runserver
 ```
