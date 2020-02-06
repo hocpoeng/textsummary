@@ -10,6 +10,9 @@ from .porterStemmer import porterStemmer
 from .summa import viewSumma
 
 # Create your views here.
+def home(request):
+  return render(request, 'friendship.html', {})
+
 def nltk_summarizer(request):
   # NLKT Wikipedia scraper
 
