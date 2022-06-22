@@ -3,7 +3,7 @@ beautifulsoup4==4.8.2
 Django==3.0.7
 lxml==4.5.0
 nltk==3.4.5
-numpy==1.18.1
+numpy==1.22.0
 pytz==2019.3
 scipy==1.4.1
 six==1.14.0
